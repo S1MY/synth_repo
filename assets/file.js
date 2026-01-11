@@ -304,7 +304,7 @@ async function backgroundLoadFrames() {
 // ======================
 function getFrameUrl(frameNumber) {
     const paddedNumber = frameNumber.toString().padStart(5, '0');
-    return `assets/frames/syntx+_${paddedNumber}.png`;
+    return `assets/frames/syntx+_${paddedNumber}.webp`;
 }
 
 function updateFrame(frameNum) {
